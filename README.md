@@ -7,7 +7,8 @@ Eg: 2D Array: [Pixel: { r: 12, g: 53, b: 122, a: 0.5 }, ...]
 
 *Please note that you can only use images served by other servers, you cannot use images on your filesystem*
 
-Just include the script into your index.html and call `ImagePixArray.getPixelData(imgPath);` into an async function. (Where `imgPath` is the URL to an image you have access to.)
+Just include the script into your index.html and call `ImagePixArray.getPixelData(imgPath);` into an async function. 
+(Where `imgPath` is the URL to an image you have access to.)
 
 Eg:
 
