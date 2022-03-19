@@ -14,7 +14,7 @@ Eg:
 
 ```
 async function main() {
-  const pixelDataArray = ImagePixArray.getPixelData(SOME_IMAGE_PATH_HERE);
+  const pixelDataArray = await ImagePixArray.getPixelData(SOME_IMAGE_PATH_HERE);
   console.log(pixelDataArray); // Array structure mentioned above in the readme file
 }
 
